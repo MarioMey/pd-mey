@@ -1,0 +1,13 @@
+#N canvas 772 366 461 352 12;
+#X obj 201 25 inlet;
+#X obj 255 118 symbol \$1;
+#X obj 201 217 list;
+#X msg 255 217 set \$1;
+#X obj 201 71 t a b;
+#X obj 201 261 s osc-to-tab;
+#X connect 0 0 4 0;
+#X connect 1 0 3 0;
+#X connect 2 0 5 0;
+#X connect 3 0 5 0;
+#X connect 4 0 2 0;
+#X connect 4 1 1 0;
